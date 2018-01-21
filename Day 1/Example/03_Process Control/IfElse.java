@@ -8,6 +8,22 @@ public class IfElse
         System.out.println("Key in int");
         int input = scanner.nextInt();
  
+        /*
+        if (條件成立時)
+        {
+            Do Something
+        }
+        else if (條件成立時)
+        {
+            Do Something
+        }
+        else
+        {
+            上述條件都不成立時！
+            Do Something
+        }
+        */
+
         if (input % 3 == 0) // 如果取餘數為0的話
         {
             System.out.println("input % 3 = 0");

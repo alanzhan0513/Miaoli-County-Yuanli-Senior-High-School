@@ -8,6 +8,23 @@ public class Switch
         System.out.println("Key in int");
         int input = scanner.nextInt();
  
+        /*
+        switch(變數/值)
+        {
+            case 值: // 當值相等時！
+                Do Something
+                break;
+            
+            case 值: // 當值相等時！
+                Do Something
+                break;
+
+            default: // 如果上述都沒成立時！
+                Do Something
+                break;
+        }
+        */
+
         int i = input % 3;
         switch(i)
         {
