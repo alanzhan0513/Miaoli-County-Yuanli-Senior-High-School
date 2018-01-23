@@ -1,2 +1,2 @@
-BMI	-- ­pºâ <br/>
- Roll	-- ÂY»ë¤l
+BMI  -- BMIè¨ˆç®— <br/>
+Roll -- éª°å­éŠæˆ²
