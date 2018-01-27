@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rsess.guess_number.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtInput"
+            android:digits="1234567890"
+            android:layout_width="fill_parent"
+            android:layout_height="82dp"
+            android:gravity="center"
+            android:maxLength="4"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/txtOutput"
+            android:layout_width="fill_parent"
+            android:layout_height="82dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="98dp" />
+
+        <Button
+            android:id="@+id/btnBuess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guess" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
